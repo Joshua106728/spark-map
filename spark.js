@@ -112,17 +112,21 @@ function getXML(query, lyrControl){
 	});
 }
 
+var styleList = {};
+
 var buildingsStyle = {
 	color: "#E22B2B", 
 	weight: 5, 
 	opacity: 0.70
 };
+styleList.push(buildingsStyle);
 
 var otherStyle = {
 	color: "#FFFF00", 
 	weight: 5, 
 	opacity: 0.5
 };
+styleList.push(otherStyle);
 
 var OwaysStyle = {
 	color: "#E22B2B", 
@@ -147,44 +151,46 @@ var schoolStyle = {
 	weight: 5, 
 	opacity: 0.70
 };
+styleList.push(schoolStyle);
 
 var houseStyle = {
 	color: "#6f15cf", 
 	weight: 5, 
 	opacity: 0.70
 };
+styleList.push(houseStyle);
 	
 var apartmentsStyle = {
 	color: "#8a427f", 
 	weight: 5, 
-	opacity: 0.70}
+	opacity: 0.70
+};
+styleList.push(apartmentsStyle);
 	
 var garageStyle = {
 	color: "#42898a", 
 	weight: 5, 
 	opacity: 0.70
 };
-
-var garagesStyle = {
-	color: "#c9400e", 
-	weight: 5, 
-	opacity: 0.70
-};
+styleList.push(garageStyle);
 
 var yesStyle = {
 	color: "#edf505", 
 	weight: 5, 
 	opacity: 0.70
 };
+styleList.push(yesStyle);
 
 var residentialStyle = {
 	color: "#24ff5e",
 	weight: 5,
 	opactiy: 0.70
-};	
+};
+styleList.push(residentialStyle);
 
 var serviceStyle = {
 	color: "#ff7621",
 	weight: 5,
 	opacity: 0.70
 };
+styleList.push(serviceStyle);
